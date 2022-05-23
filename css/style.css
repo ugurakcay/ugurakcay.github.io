@@ -46,14 +46,14 @@ header.sticky
 	position: relative;
 	width: 30px;
 	height: 30px;
-	background: url(img/menu.png);
+	background: url(../images/menu.png);
 	background-size: 70px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .menuToggle.active
 {
-	background: url(img/close.png);
+	background: url(../images/close.png);
 	background-size: 25px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -208,7 +208,7 @@ p
 	font-weight: 300;
 	text-align: justify;
 }
-.about .contentBx
+.hakkimizda .contentBx
 {
 	position: relative;
 	margin-top: 40px;
@@ -216,11 +216,11 @@ p
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 40px;
 }
-.about .contentBx .content
+.hakkimizda .contentBx .content
 {
 	position: relative;
 }
-.about .contentBx .content .imgBx
+.hakkimizda .contentBx .content .imgBx
 {
 	min-height: 400px;
 }
